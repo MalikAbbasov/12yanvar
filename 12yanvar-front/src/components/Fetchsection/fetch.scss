@@ -1,0 +1,39 @@
+#fetch{
+    margin-top: 78px;
+    max-width: 100vw;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h2{
+        font-size: 50px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        .card{
+            width: 300px;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 240px;
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 15px;
+                i{
+                    font-size: 24px;
+                    color: blue;
+                }
+            }
+        }
+    }
+}
